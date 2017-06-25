@@ -1,0 +1,59 @@
+body {
+  font-family: 'Bubbler One', sans-serif !important;
+}
+a {
+  text-decoration: none;
+}
+.navbar-brand {
+  font-size: 25px !important;
+  color: #FFFEFF;
+}
+
+.navbar-brand:hover {
+  color: #DB7E70 !important;
+}
+
+.menu-nav {
+  background:  #43455C;
+  color: #FFFEFF;
+}
+
+.menu li {
+  display: inline-block;
+  margin-top: 14px;
+  float: right;
+}
+
+.menu li a {
+ padding: 15px 20px;
+ color: #FFFEFF;
+ text-decoration: none;
+ font-size: 18px;
+}
+
+.menu li a:hover {
+  color: #DB7E70;
+}
+
+h2 {
+  font-size: 40px !important;
+}
+
+p {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 18px;
+}
+
+.max-width {
+  max-width: 500px;
+}
+
+.botao {
+  background:  #DB7E70;
+  color: #43455C;
+  transition: .5s ease;
+}
+.botao:hover {
+  background: #43455C;
+  color: #DB7E70 !important;
+}
