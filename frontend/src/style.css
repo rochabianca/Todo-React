@@ -4,7 +4,7 @@ body {
 a {
   text-decoration: none;
 }
-.navbar-brand {
+.navbar-brand, .navbar-brand:visited {
   font-size: 25px !important;
   color: #FFFEFF;
 }
@@ -44,16 +44,28 @@ p {
   font-size: 18px;
 }
 
+input {
+  color: #000;
+  font-size: 18px !important;
+  font-family: 'Abhaya Libre', serif !important;
+  border: 2px solid #9A9496 !important;
+}
+
+input:focus {
+  font-family: 'Abhaya Libre', serif;
+  border: 2px solid #43455C !important;
+}
+
 .max-width {
   max-width: 500px;
 }
 
-.botao {
+.botao-vermelho {
   background:  #DB7E70;
   color: #43455C;
   transition: .5s ease;
 }
-.botao:hover {
+.botao-vermelho:hover {
   background: #43455C;
   color: #DB7E70 !important;
 }
