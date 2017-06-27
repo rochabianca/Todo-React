@@ -60,7 +60,12 @@ input:focus {
   max-width: 500px;
 }
 
+.btn {
+  margin: 5px;
+}
+
 .botao-vermelho {
+  margin: 0px;
   background:  #DB7E70;
   color: #43455C;
   transition: .5s ease;
@@ -68,4 +73,83 @@ input:focus {
 .botao-vermelho:hover {
   background: #43455C;
   color: #DB7E70 !important;
+}
+
+.botao-bege {
+  margin: 0px 10px;
+  background:  #FEF0CD;
+  color: #43455C;
+  transition: .5s ease;
+}
+.botao-bege:hover {
+  background: #43455C;
+  color: #FEF0CD !important;
+}
+
+.botao-cinza {
+  background:  #9A9496;
+  color: #43455C;
+  transition: .5s ease;
+}
+.botao-cinza:hover {
+  background: #DB7E70;
+}
+
+.botao-azul {
+  background:  #43455C;
+  color: #FFFEFF;
+  transition: .5s ease;
+}
+.botao-azul:hover {
+  background: #DB7E70;
+}
+
+.botao-azul-2 {
+  margin: 0px;
+  background:  #43455C;
+  color: #FEF0CD;
+  transition: .5s ease;
+}
+.botao-azul-2:hover {
+  background: #DB7E70;
+}
+
+.botao-laranja {
+  background:  #F0D9AD;
+  color: #43455C;
+  transition: .5s ease;
+}
+.botao-laranja:hover {
+  background: #DB7E70;
+}
+
+.todoForm {
+  margin-bottom: 80px !important;
+}
+
+.tira-padding {
+  padding-left: 0px !important;
+  padding-right: 16px !important;
+}
+
+th {
+  font-size: 30px !important;
+  font-weight: normal !important;
+}
+
+
+td {
+  font-family: 'Abhaya Libre', serif !important;
+  color: #000;
+  font-size: 18px;
+  border-top: 1px solid #D4D4DA !important;
+}
+
+.markedAsDone {
+  text-decoration: line-through;
+  color: #9A9496;
+}
+
+.tableActions {
+  width: 115px;
 }
